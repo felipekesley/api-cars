@@ -17,7 +17,8 @@ const router = jsonServer.router("db.json");
 const rules = auth.rewriter({
   // Permission rules
   users: 600,
-  messages: 640,
+  cars: 600,
+  makes: 640,
   // Other rules
   "/posts/:category": "/posts?category=:category",
 });
