@@ -1,14 +1,386 @@
 {
   "users": [],
+  "makes": [
+    { "id": 1, "make": "Fiat" },
+    { "id": 2, "make": "Ford" },
+    { "id": 3, "make": "Hyundai" },
+    { "id": 4, "make": "Porsche" },
+    { "id": 5, "make": "Renault" },
+    { "id": 6, "make": "Tesla" },
+    { "id": 7, "make": "Volkswagen" }
+  ],
   "cars": [
     {
-      "model": "corolla",
-      "make": "toyata",
+      "model": "500e",
+      "make": "Fiat",
+      "year": "2024",
+      "transmission": "automatic",
+      "price": 215000,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/500e/500e.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/500e/1.png",
+        "https://felipekesley.github.io/api-cars/images/fiat/500e/2.png"
+      ],
+      "id": 1,
+      "makeId": 1
+    },
+    {
+      "model": "Abarth",
+      "make": "Fiat",
+      "year": "2024",
+      "transmission": "automatic",
+      "price": 149000,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/abarth/abarth.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/abarth/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/abarth/2.jpg"
+      ],
+      "id": 2,
+      "makeId": 1
+    },
+    {
+      "model": "Argo",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "manual",
+      "price": 69900,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/argo/argo.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/argo/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/argo/2.jpg"
+      ],
+      "id": 3,
+      "makeId": 1
+    },
+    {
+      "model": "Cronos",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "manual",
+      "price": 84790,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/cronos/cronos.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/cronos/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/cronos/2.jpg"
+      ],
+      "id": 4,
+      "makeId": 1
+    },
+    {
+      "model": "Ducato",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "manual",
+      "price": 245990,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/ducato/ducato.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/ducato/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/ducato/2.jpg"
+      ],
+      "id": 5,
+      "makeId": 1
+    },
+    {
+      "model": "Fastback",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 119990,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/fastback/fastback.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/fastback/1.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/fastback/2.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/fastback/3.webp"
+      ],
+      "id": 6,
+      "makeId": 1
+    },
+    {
+      "model": "Pulse",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "manual",
+      "price": 89990,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/pulse/pulse.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/pulse/1.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/pulse/2.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/pulse/3.webp"
+      ],
+      "id": 7,
+      "makeId": 1
+    },
+    {
+      "model": "Strada",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 110990,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/strada/strada.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/strada/1.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/strada/2.webp",
+        "https://felipekesley.github.io/api-cars/images/fiat/strada/3.webp"
+      ],
+      "id": 8,
+      "makeId": 1
+    },
+    {
+      "model": "Toro",
+      "make": "Fiat",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 160990,
+      "cover": "https://felipekesley.github.io/api-cars/images/fiat/toro/toro.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/fiat/toro/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/toro/2.jpg",
+        "https://felipekesley.github.io/api-cars/images/fiat/toro/3.jpg"
+      ],
+      "id": 9,
+      "makeId": 1
+    },
+    {
+      "model": "Bronco",
+      "make": "Ford",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 272790,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/bronco/bronco.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/bronco/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/bronco/2.jpg"
+      ],
+      "id": 10,
+      "makeId": 2
+    },
+    {
+      "model": "F-150",
+      "make": "Ford",
+      "year": "2024",
+      "transmission": "automatic",
+      "price": 480000,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/f-150/f-150.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/f-150/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/f-150/2.jpg"
+      ],
+      "id": 11,
+      "makeId": 2
+    },
+    {
+      "model": "Maverick",
+      "make": "Ford",
+      "year": "2024",
+      "transmission": "automatic",
+      "price": 240000,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/maverick/maverick.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/maverick/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/maverick/2.jpg"
+      ],
+      "id": 12,
+      "makeId": 2
+    },
+    {
+      "model": "Mustang",
+      "make": "Ford",
+      "year": "2024",
+      "transmission": "automatic",
+      "price": 566300,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/mustang/mustang.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/mustang/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/mustang/2.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/mustang/3.jpg"
+      ],
+      "id": 13,
+      "makeId": 2
+    },
+    {
+      "model": "Ranger",
+      "make": "Ford",
       "year": "2022",
       "transmission": "automatic",
-      "price": 200.000,
-      "cover": "images/fiat/500e/500e.png",
-      "id": 1
+      "price": 209990,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/ranger/ranger.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/ranger/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/ranger/2.jpg"
+      ],
+      "id": 14,
+      "makeId": 2
+    },
+    {
+      "model": "Transit",
+      "make": "Ford",
+      "year": "2022",
+      "transmission": "manual",
+      "price": 298200,
+      "cover": "https://felipekesley.github.io/api-cars/images/ford/transit/transit.jpg",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/ford/transit/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/ford/transit/2.jpg"
+      ],
+      "id": 14,
+      "makeId": 2
+    },
+    {
+      "model": "Creta",
+      "make": "Hyundai",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 120990,
+      "cover": "https://felipekesley.github.io/api-cars/images/hyundai/creta/creta.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/hyundai/creta/1.png",
+        "https://felipekesley.github.io/api-cars/images/hyundai/creta/2.png"
+      ],
+      "id": 15,
+      "makeId": 3
+    },
+    {
+      "model": "Hb 20",
+      "make": "Hyundai",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 120990,
+      "cover": "https://felipekesley.github.io/api-cars/images/hyundai/hb-20/hb-20.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/hyundai/hb-20/1.png",
+        "https://felipekesley.github.io/api-cars/images/hyundai/hb-20/2.png"
+      ],
+      "id": 16,
+      "makeId": 3
+    },
+    {
+      "model": "718 Boxster",
+      "make": "Porsche",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 519000,
+      "cover": "https://felipekesley.github.io/api-cars/images/porsche/718-boxster/boxster.webp",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/porsche/718-boxster/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/porsche/718-boxster/2.jpg",
+        "https://felipekesley.github.io/api-cars/images/porsche/718-boxster/3.jpg"
+      ],
+      "id": 17,
+      "makeId": 4
+    },
+    {
+      "model": "718 Cayman",
+      "make": "Porsche",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 535000,
+      "cover": "https://felipekesley.github.io/api-cars/images/porsche/718-cayman/718-cayman.webp",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/porsche/718-cayman/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/porsche/718-cayman/2.jpg",
+        "https://felipekesley.github.io/api-cars/images/porsche/718-cayman/3.jpg"
+      ],
+      "id": 18,
+      "makeId": 4
+    },
+    {
+      "model": "Kwid",
+      "make": "Renault",
+      "year": "2022",
+      "transmission": "manual",
+      "price": 70000,
+      "cover": "https://felipekesley.github.io/api-cars/images/renault/kwid/kwid.webp",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/renault/kwid/1.webp"
+      ],
+      "id": 19,
+      "makeId": 5
+    },
+    {
+      "model": "Stepway",
+      "make": "Renault",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 77990,
+      "cover": "https://felipekesley.github.io/api-cars/images/renault/stepway/stepway.webp",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/renault/stepway/1.webp",
+        "https://felipekesley.github.io/api-cars/images/renault/stepway/2.webp"
+      ],
+      "id": 20,
+      "makeId": 5
+    },
+    {
+      "model": "Model S",
+      "make": "Tesla",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 785000,
+      "cover": "https://felipekesley.github.io/api-cars/images/model-s/model-s/model-s.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/model-s/model-s/1.png",
+        "https://felipekesley.github.io/api-cars/images/model-s/model-s/2.png",
+        "https://felipekesley.github.io/api-cars/images/model-s/model-s/3.png"
+      ],
+      "id": 21,
+      "makeId": 6
+    },
+    {
+      "model": "Nivus",
+      "make": "Volkswagen",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 141890,
+      "cover": "https://felipekesley.github.io/api-cars/images/vw/nivus/nivus.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/vw/nivus/1.webp",
+        "https://felipekesley.github.io/api-cars/images/vw/nivus/2.webp",
+        "https://felipekesley.github.io/api-cars/images/vw/nivus/3.webp"
+      ],
+      "id": 22,
+      "makeId": 7
+    },
+    {
+      "model": "Polo",
+      "make": "Volkswagen",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 84990,
+      "cover": "https://felipekesley.github.io/api-cars/images/vw/polo/polo.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/vw/polo/1.webp",
+        "https://felipekesley.github.io/api-cars/images/vw/polo/2.webp"
+      ],
+      "id": 23,
+      "makeId": 7
+    },
+    {
+      "model": "T-cross",
+      "make": "Volkswagen",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 160000,
+      "cover": "https://felipekesley.github.io/api-cars/images/vw/t-cross/t-cross.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/vw/t-cross/1.webp",
+        "https://felipekesley.github.io/api-cars/images/vw/t-cross/2.jpg"
+      ],
+      "id": 24,
+      "makeId": 7
+    },
+    {
+      "model": "Virtus",
+      "make": "Volkswagen",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 160000,
+      "cover": "https://felipekesley.github.io/api-cars/images/vw/virtus/virtus.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/vw/virtus/1.webp",
+        "https://felipekesley.github.io/api-cars/images/vw/virtus/2.webp"
+      ],
+      "id": 25,
+      "makeId": 7
     }
   ]
 }
