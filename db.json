@@ -7,7 +7,8 @@
     { "id": 4, "make": "Porsche" },
     { "id": 5, "make": "Renault" },
     { "id": 6, "make": "Tesla" },
-    { "id": 7, "make": "Volkswagen" }
+    { "id": 7, "make": "Volkswagen" },
+    { "id": 8, "make": "Toyota" }
   ],
   "cars": [
     {
@@ -381,6 +382,48 @@
       ],
       "id": 25,
       "makeId": 7
+    },
+    {
+      "model": "Corolla",
+      "make": "Toyota",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 154990,
+      "cover": "https://felipekesley.github.io/api-cars/images/toyota/corolla/corolla.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/toyota/corolla/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/toyota/corolla/2.jpg"
+      ],
+      "id": 26,
+      "makeId": 8
+    },
+    {
+      "model": "Hilux",
+      "make": "Toyota",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 367390,
+      "cover": "https://felipekesley.github.io/api-cars/images/toyota/hilux/hilux.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/toyota/hilux/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/toyota/hilux/2.jpg"
+      ],
+      "id": 27,
+      "makeId": 8
+    },
+    {
+      "model": "SW4",
+      "make": "Toyota",
+      "year": "2023",
+      "transmission": "automatic",
+      "price": 367390,
+      "cover": "https://felipekesley.github.io/api-cars/images/toyota/sw4/sw4.png",
+      "images": [
+        "https://felipekesley.github.io/api-cars/images/toyota/sw4/1.jpg",
+        "https://felipekesley.github.io/api-cars/images/toyota/sw4/2.jpg"
+      ],
+      "id": 27,
+      "makeId": 8
     }
   ]
 }
