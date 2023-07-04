@@ -316,11 +316,11 @@
       "year": "2023",
       "transmission": "automatic",
       "price": 785000,
-      "cover": "https://felipekesley.github.io/api-cars/images/model-s/model-s/model-s.png",
+      "cover": "https://felipekesley.github.io/api-cars/images/tesla/model-s/model-s.png",
       "images": [
-        "https://felipekesley.github.io/api-cars/images/model-s/model-s/1.png",
-        "https://felipekesley.github.io/api-cars/images/model-s/model-s/2.png",
-        "https://felipekesley.github.io/api-cars/images/model-s/model-s/3.png"
+        "https://felipekesley.github.io/api-cars/images/tesla/model-s/1.png",
+        "https://felipekesley.github.io/api-cars/images/tesla/model-s/2.png",
+        "https://felipekesley.github.io/api-cars/images/tesla/model-s/3.png"
       ],
       "id": 21,
       "makeId": 6
