@@ -1,0 +1,14 @@
+{
+  "users": [],
+  "cars": [
+    {
+      "model": "corolla",
+      "make": "toyata",
+      "year": "2022",
+      "transmission": "automatic",
+      "price": 200.000,
+      "cover": "images/fiat/500e/500e.png",
+      "id": 1
+    }
+  ]
+}
